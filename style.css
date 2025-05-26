@@ -1,0 +1,44 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Темный фон */
+            color: #ffffff; /* Белый текст */
+        }
+        .calculator {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #1e1e1e; /* Темный фон калькулятора */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Тень */
+        }
+        .display {
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #333333; /* Фон дисплея */
+            border: none;
+            color: #ffffff; /* Цвет текста дисплея */
+            border-radius: 5px;
+            text-align: right;
+        }
+        button {
+            font-size: 18px;
+            width: 50px;
+            margin: 5px;
+            padding: 10px;
+            background-color: #444444; /* Фон кнопок */
+            color: #ffffff; /* Цвет текста кнопок */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s; /* Плавный переход для эффекта нажатия */
+        }
+        button:hover {
+            background-color: #555555; /* Цвет кнопок при наведении */
+        }
+        #history {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #b3b3b3; /* Цвет текста истории */
+        }
+    
